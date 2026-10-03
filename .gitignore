@@ -1,0 +1,29 @@
+# STM32CubeIDE
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+.settings/
+.metadata/
+
+# Kết quả biên dịch test trên PC
+test/test_parser
+test/test_parser.exe
+test/t_sum8*
+test/t_crc8*
+test/t_crc16*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Hệ điều hành / IDE
+.vscode/
+Thumbs.db
+desktop.ini
